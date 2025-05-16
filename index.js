@@ -25,7 +25,7 @@ const limiter = rateLimit({
 
 // Middleware
 app.use(cors({
-  origin: ["https://main.dysyb2943zsw4.amplifyapp.com/"]
+  origin: ["https://main.dysyb2943zsw4.amplifyapp.com"]
 }));
 app.use(morgan('dev'));
 app.use(express.json());
